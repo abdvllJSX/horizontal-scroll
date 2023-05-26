@@ -47,8 +47,7 @@ sections.forEach((section) => {
     scrollTrigger: {
       trigger: section,
       containerAnimation: scrollTween,
-      start: "left center",
-      markers: true
+      start: "left center"
     }
   });
 });
