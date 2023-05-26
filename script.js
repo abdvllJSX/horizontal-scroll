@@ -10,9 +10,8 @@ let scrollTween = gsap.to(sections, {
     trigger: ".container",
     pin: true,
     scrub: 1,
-    end: "+=3000",
+    end: "+=3000"
     //snap: 1 / (sections.length - 1),
-    markers: true,
   }
 });
 
